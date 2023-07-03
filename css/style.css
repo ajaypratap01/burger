@@ -554,7 +554,16 @@ footer .row .col-4 ul {
 footer .row .col-4 ul a {
   color: #fff;
 }
-
+@media screen and (max-width: 920px) {
+  main .wrap-3 .row img {
+    height: auto;
+    max-width: 100%;
+  }
+  main .wrap-4 .row img {
+    height: auto;
+    max-width: 100%;
+  }
+}  
 @media screen and (max-width: 830px) {
   .wrap-1 {
     background-size: cover;
@@ -566,14 +575,7 @@ footer .row .col-4 ul a {
   .wrap-1 header .row .col-9 button {
     display: block;
   }
-  main .wrap-3 .row img {
-    height: auto;
-    max-width: 100%;
-  }
-  main .wrap-4 .row img {
-    height: auto;
-    max-width: 100%;
-  }
+  
 }
 @media screen and (max-width: 768px) {
   .home .col-6 {
