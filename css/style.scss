@@ -208,8 +208,21 @@ footer{background-color: #222222; padding: 100px 0px;
         }
     }
 }
-
-  @media screen and (max-width: 830px) {
+ @media screen and (max-width: 920px){
+        main {
+            .wrap-3 {
+                .row {
+                    img{height: auto; max-width: 100%;}
+                }
+            }
+            .wrap-4 {
+                .row {
+                    img{height: auto; max-width: 100%;}
+                }
+            }
+        }
+    }
+   @media screen and (max-width: 830px) {
     .wrap-1 { background-size: cover; background-position: center;
       header {
         .row {
@@ -222,18 +235,7 @@ footer{background-color: #222222; padding: 100px 0px;
         }
       }
     }
-    main {
-        .wrap-3 {
-            .row {
-                img{height: auto; max-width: 100%;}
-            }
-        }
-        .wrap-4 {
-            .row {
-                img{height: auto; max-width: 100%;}
-            }
-        }
-    }
+   
   }
 
   @media screen and (max-width:768px){
